@@ -123,13 +123,13 @@ public class WebController {
 		userManager.deleteUser(userId);
 	}
 	
-	/***
+	/**
 	 * Assignment 3
 	 * Individual task #3
 	 * by Bonnie Ngu
-	 * 
-	 /
-	@RequestMapping (value = "/", method = RequestMethod.GET)
+	 * /
+	 
+	@RequestMapping (value = "/cs580/user/{userId}", method = RequestMethod.GET)
 	ModelAndView getLoginPage(Model m) {
 		ModelAndView modelAndView = new ModelAndView("login");
 		modelAndView.addObject("title", "userpage");
