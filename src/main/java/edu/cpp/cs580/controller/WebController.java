@@ -122,6 +122,22 @@ public class WebController {
 			@PathVariable("userId") String userId) {
 		userManager.deleteUser(userId);
 	}
+	
+	/***
+	 * Assignment 3
+	 * Individual task #3
+	 * by Bonnie Ngu
+	 * 
+	 /
+	@RequestMapping (value = "/", method = RequestMethod.GET)
+	ModelAndView getLoginPage(Model m) {
+		ModelAndView modelAndView = new ModelAndView("login");
+		modelAndView.addObject("title", "userpage");
+		
+		m.addAttribute("newuser", new User());
+		
+		return modelAndView;
+	}
 
 	/**
 	 * This API lists all the users in the current database.
