@@ -1,4 +1,4 @@
-Overview
+Assignment 3 - Overview
 --------
 
 The skeleton of the demo web project for CS580.
